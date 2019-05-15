@@ -1,0 +1,11 @@
+[mqtt.server]
+ip = "localhost"
+port = "1883"
+
+[gpio.pins]
+# Find pins at https://pinout.xyz/
+# Values should be:
+# [pin name] = "[mqtt topic name]"
+0 = "/rooms/huiskamer/relay1"
+5 = "/rooms/huiskamer/relay2"
+
